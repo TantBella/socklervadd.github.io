@@ -1,0 +1,20 @@
+// @import "bootstrap/scss/variables";
+// @import "bootstrap/scss/functions";
+
+
+$body-bg: #23262d;
+
+$body-color: #FEFAE0;
+
+$theme-colors: (
+  'primary': #6b705c,
+  'secondary': #a5a58d,
+  'success': #FCF4D7,
+  'info': #b7b7a4,
+  // 'warning': #ac5b2c,
+  // 'danger': #88193a,
+  'light': #c8c8c8,
+  'dark': #2f2f2f
+);
+
+@import 'bootstrap/scss/bootstrap';
