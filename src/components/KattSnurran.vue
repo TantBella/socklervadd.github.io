@@ -37,8 +37,10 @@ export default {
   <div class="container">
     <ul v-for="ca in cats" :key="ca">
       <li class="item">
-        <img :src="ca.image_link" />
-        {{ ca.name }}
+        <router-link :to="`${ca.name}`">
+          <img :src="ca.image_link" />
+          {{ ca.name }}
+        </router-link>
       </li>
     </ul>
   </div>
