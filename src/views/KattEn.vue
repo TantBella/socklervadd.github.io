@@ -1,13 +1,11 @@
 <script>
-import GetKatt from '../components/GetKatt.vue';
+  import GetKatt from '../components/GetKatt.vue'
 
-export default {
-
-  components: {
-    GetKatt
+  export default {
+    components: {
+      GetKatt
+    }
   }
-}
-
 </script>
 
 <template>

@@ -1,10 +1,8 @@
 <script>
+  import 'bootstrap/dist/css/bootstrap.css'
+  import 'bootstrap/dist/js/bootstrap.js'
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.js'
-
-export default {
-}
+  export default {}
 </script>
 
 <template>
@@ -26,8 +24,8 @@ export default {
 </template>
 
 <style lang="scss">
-ul {
-  display: flex;
-  flex-direction: row;
-}
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
 </style>
